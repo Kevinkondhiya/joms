@@ -1,0 +1,57 @@
+@page {
+    height:14.85cm ;
+    width: 21cm;
+    margin: 0;
+     /* size: 14.85cm 21cm; */
+  }
+  
+  @media print {
+    @page {
+      /* size: 14.85cm 21cm; */
+      height: 14.85cm;
+      width: 21cm;
+    }
+    
+  html {
+    height: 14.85cm;
+    width: 21cm;
+      margin: 0;
+  }
+    
+  body {
+    height: 14.85cm;
+    width: 21cm;
+    margin: 1cm;
+  }
+  #print-btn
+  {
+      display: none;
+      visibility: none;
+  }
+  #btn-primary
+  {
+    display: none;
+    visibility: none;
+  }
+  #lab,#submit,#btn
+  {
+    display: none;
+    visibility: none;
+  }
+  .select
+  {
+    display: none;
+    visibility: none;
+  }
+  /* #maindiv
+  {
+
+  } */
+/* #divborder
+{ 
+  border: 1px solid black; 
+  transform: rotate(0.2deg);
+  margin: 1cm;
+    margin-top: 0%;
+} */
+  }
